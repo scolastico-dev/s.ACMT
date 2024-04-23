@@ -1,0 +1,26 @@
+{
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/.nuxt": true,
+    "**/.git": true,
+    "**/.husky": true,
+    "**/node_modules": true,
+    "**/.npmrc": true,
+    "**/.nvmrc": true,
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "css.customData": [
+    ".vscode/tailwind.json"
+  ],
+  "cSpell.words": [
+    "axios",
+    "jszip",
+    "Nuxt"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
