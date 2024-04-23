@@ -26,6 +26,9 @@ jobs:
       - name: Generate static files
         run: pnpm generate
 
+      - name: Add .nojekyll file
+        run: touch .output/public/.nojekyll
+
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
