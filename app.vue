@@ -1,7 +1,7 @@
 <template>
   <base-layout>
     <loading-overlay :loading="loading" />
-    <drop-zone />
+    <drop-zone @load-obj="loadedObj = $event" />
     <base-panel v-if="cfg.preview">
       <panel-preview :obj="preview" />
     </base-panel>
