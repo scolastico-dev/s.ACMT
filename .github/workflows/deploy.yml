@@ -28,6 +28,9 @@ jobs:
 
       - name: Add .nojekyll file
         run: touch .output/public/.nojekyll
+      
+      - name: Add CNAME file
+        run: echo "acmt.scolasti.co" > .output/public/CNAME
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4

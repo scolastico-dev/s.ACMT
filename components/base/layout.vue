@@ -1,5 +1,10 @@
 <template>
   <div class="base-layout">
+    <github-badge
+      :text="'This project is OpenSource!\nVisit us on GitHub!'"
+      to="https://github.com/scolastico-dev/s.ACMT/"
+      :size="400"
+    />
     <h1 class="absolute top-4 left-4 text-3xl font-bold text-white">
       Wavefront OBJ - Auto Centering Multi Tool
     </h1>

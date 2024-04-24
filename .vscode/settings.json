@@ -22,5 +22,10 @@
     "jszip",
     "Nuxt"
   ],
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "Lua.workspace.library": [],
+  "Lua.workspace.userThirdParty": [
+    "/home/jb/.config/Code/User/workspaceStorage/3190be4388c72926a22d756929c903c6/justarandomgeek.factoriomod-debug/sumneko-3rd"
+  ],
+  "Lua.workspace.checkThirdParty": "ApplyInMemory"
 }
